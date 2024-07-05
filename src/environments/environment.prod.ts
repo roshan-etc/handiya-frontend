@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiGatewayURL: 'http://localhost:3000'
+  apiGatewayURL: 'ApplicationLB-492902276.us-east-2.elb.amazonaws.com'
 };
