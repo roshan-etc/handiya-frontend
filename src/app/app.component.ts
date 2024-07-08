@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
 title = 'hadiya_products_admin';
 constructor(private http: HttpClient) {}
 ngOnInit() {
-this.http.get('ApplicationLB-492902276.us-east-2.elb.amazonaws.com').subscribe((data: any) => {
+this.http.get('Applicationloadblncer-859045254.us-east-2.elb.amazonaws.com').subscribe((data: any) => {
 console.log(data);
 });
 }
